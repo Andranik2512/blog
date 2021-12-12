@@ -1,0 +1,33 @@
+.profile {
+
+    &__avatar {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 0px 7px 20px rgba($black, 0.25);
+        border: 2px solid $white;
+        margin-bottom: 20px;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__name {
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    &__prof {
+        font-weight: 300;
+        font-size: 14px;
+        color: #DEDEDE;
+    }
+}
